@@ -1,0 +1,842 @@
+Date: Tue, 27 Feb 2024 10:37:45 +0000 (UTC)
+Message-ID: <2088731808.69.1709030265836@9db34e2e022e>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_68_1946415769.1709030265836"
+
+------=_Part_68_1946415769.1709030265836
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Test Plan #1</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Test Plan #1</h1>
+    <div class=3D"Section1">
+        <ul>
+<li>
+<p><strong>Introduction&nbsp;</strong></p></li>
+</ul>
+<p>=D0=94=D0=BE=D0=BA=D1=83=D0=BC=D0=B5=D0=BD=D1=82 =D1=81=D0=BE=D1=81=D1=
+=82=D0=B0=D0=B2=D0=BB=D0=B5=D0=BD =D1=81 =D1=86=D0=B5=D0=BB=D1=8C=D1=8E =D0=
+=BE=D0=BF=D0=B8=D1=81=D0=B0=D0=BD=D0=B8=D1=8F =D0=BE=D0=B1=D1=8A=D0=B5=D0=
+=BC=D0=B0 =D1=80=D0=B0=D0=B1=D0=BE=D1=82 =D0=BF=D0=BE =D1=82=D0=B5=D1=81=D1=
+=82=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8E =D1=81=D0=B0=D0=B9=D1=
+=82=D0=B0 <a class=3D"external-link" data-card-appearance=3D"inline" href=
+=3D"https://www.etsy.com/" rel=3D"nofollow">https://www.etsy.com/</a> .</p>
+<p>=D0=A1=D0=BE=D0=B4=D0=B5=D1=80=D0=B6=D0=B8=D1=82 =D0=BE=D0=BF=D0=B8=D1=
+=81=D0=B0=D0=BD=D0=B8=D0=B5 =D0=BE=D0=B1=D1=8A=D0=B5=D0=BA=D1=82=D0=BE=D0=
+=B2 (=D1=84=D1=83=D0=BD=D0=BA=D1=86=D0=B8=D0=BE=D0=BD=D0=B0=D0=BB=D1=8C=D0=
+=BD=D0=BE=D1=81=D1=82=D0=B5=D0=B9) =D1=81=D0=B0=D0=B9=D1=82=D0=B0, =D0=BF=
+=D0=BE =D0=BA=D0=BE=D1=82=D0=BE=D1=80=D1=8B=D0=BC =D0=B1=D1=83=D0=B4=D0=B5=
+=D1=82 =D0=BF=D1=80=D0=BE=D0=B2=D0=BE=D0=B4=D0=B8=D1=82=D1=8C=D1=81=D1=8F =
+=D1=82=D0=B5=D1=81=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=B5, =
+=D1=81=D1=82=D1=80=D0=B0=D1=82=D0=B5=D0=B3=D0=B8=D0=B8 =D1=82=D0=B5=D1=81=
+=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F, =D0=BA=D1=80=D0=B8=
+=D1=82=D0=B5=D1=80=D0=B8=D0=B8 =D0=BD=D0=B0=D1=87=D0=B0=D0=BB=D0=B0 =D0=B8 =
+=D0=BE=D0=BA=D0=BE=D0=BD=D1=87=D0=B0=D0=BD=D0=B8=D1=8F =D1=82=D0=B5=D1=81=
+=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F, =D0=BE=D1=86=D0=B5=
+=D0=BD=D0=BA=D0=B8 =D1=80=D0=B8=D1=81=D0=BA=D0=BE=D0=B2, =D1=81=D0=BF=D0=B8=
+=D1=81=D0=BE=D0=BA =D0=BD=D0=B5=D0=BE=D0=B1=D1=85=D0=BE=D0=B4=D0=B8=D0=BC=
+=D1=8B=D1=85 =D1=80=D0=B5=D1=81=D1=83=D1=80=D1=81=D0=BE=D0=B2, =D0=BF=D0=BB=
+=D0=B0=D0=BD =D0=B1=D1=83=D0=B4=D1=83=D1=89=D0=B8=D1=85 =D1=80=D0=B0=D0=B1=
+=D0=BE=D1=82.</p>
+<p></p>
+<ul>
+<li>
+<p><strong>Test Items&nbsp;</strong></p></li>
+</ul>
+<p>=D0=A2=D0=B5=D1=81=D1=82 =D0=BF=D0=BB=D0=B0=D0=BD =D0=B1=D1=83=D0=B4=D0=
+=B5=D1=82 =D0=BF=D0=BE=D0=BA=D1=80=D1=8B=D0=B2=D0=B0=D1=82=D1=8C =D1=82=D1=
+=83 =D1=87=D0=B0=D1=81=D1=82=D1=8C =D0=BF=D1=80=D0=BE=D0=B5=D0=BA=D1=82=D0=
+=B0, =D0=BA=D0=BE=D1=82=D0=BE=D1=80=D0=B0=D1=8F =D0=B4=D0=BE=D1=81=D1=82=D1=
+=83=D0=BF=D0=BD=D0=B0 =D0=BF=D0=BE=D1=82=D0=B5=D0=BD=D1=86=D0=B8=D0=B0=D0=
+=BB=D1=8C=D0=BD=D0=BE=D0=BC=D1=83 =D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D0=BE=D0=
+=B2=D0=B0=D1=82=D0=B5=D0=BB=D1=8E =D0=B2 =D1=87=D0=B0=D1=81=D1=82=D0=B8 =D0=
+=BF=D0=BE=D0=BA=D1=83=D0=BF=D0=BA=D0=B8 =D1=82=D0=BE=D0=B2=D0=B0=D1=80=D0=
+=BE=D0=B2.&nbsp;</p>
+<p>=D0=A1=D0=B0=D0=B9=D1=82 <a class=3D"external-link" data-card-appearance=
+=3D"inline" href=3D"https://www.etsy.com/" rel=3D"nofollow">https://www.ets=
+y.com/</a> =D0=B8=D0=BD=D1=82=D0=B5=D1=80=D0=BD=D0=B5=D1=82 =D0=BC=D0=B0=D0=
+=B3=D0=B0=D0=B7=D0=B8=D0=BD.&nbsp;</p>
+<p>=D0=98=D1=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D1=83=D1=8F =D1=81=D0=B0=D0=
+=B9=D1=82, =D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D0=BE=D0=B2=D0=B0=D1=82=D0=B5=D0=
+=BB=D1=8E =D0=B4=D0=BE=D1=81=D1=82=D1=83=D0=BF=D0=BD=D0=B0 =D0=B2=D0=BE=D0=
+=B7=D0=BC=D0=BE=D0=B6=D0=BD=D0=BE=D1=81=D1=82=D1=8C: =D0=9F=D0=BE=D0=B8=D1=
+=81=D0=BA=D0=B0, =D0=BF=D1=80=D0=BE=D1=81=D0=BC=D0=BE=D1=82=D1=80=D0=B0, =
+=D0=BA=D0=BE=D0=BB=D0=BB=D0=B5=D0=BA=D1=86=D0=B8=D0=BE=D0=BD=D0=B8=D1=80=D0=
+=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F =D0=B8 =D0=BF=D0=BE=D0=BA=D1=83=D0=BF=D0=
+=BA=D0=B8 =D1=82=D0=BE=D0=B2=D0=B0=D1=80=D0=BE=D0=B2.</p>
+<p></p>
+<ul>
+<li>
+<p><strong>Features To Be Tested:</strong></p></li>
+</ul>
+<p></p>
+<ol start=3D"1">
+<li>
+<p>=D0=A4=D1=83=D0=BD=D0=BA=D1=86=D0=B8=D0=BE=D0=BD=D0=B0=D0=BB=D1=8C=D0=BD=
+=D1=8B=D0=B9 =D1=8D=D0=BB=D0=B5=D0=BC=D0=B5=D0=BD=D1=82 =E2=80=9C=D0=98=D0=
+=BA=D0=BE=D0=BD=D0=BA=D0=B0 Etsy=E2=80=9D;</p></li>
+<li>
+<p>=D0=A4=D1=83=D0=BD=D0=BA=D1=86=D0=B8=D0=BE=D0=BD=D0=B0=D0=BB=D1=8C=D0=BD=
+=D1=8B=D0=B9 =D0=B1=D0=BB=D0=BE=D0=BA =E2=80=9C=D0=9F=D0=BE=D0=B8=D1=81=D0=
+=BA=D0=BE=D0=B2=D0=B0=D1=8F =D1=81=D1=82=D1=80=D0=BE=D0=BA=D0=B0=E2=80=9D;<=
+/p></li>
+<li>
+<p>=D0=A4=D1=83=D0=BD=D0=BA=D1=86=D0=B8=D0=BE=D0=BD=D0=B0=D0=BB=D1=8C=D0=BD=
+=D1=8B=D0=B9 =D1=8D=D0=BB=D0=B5=D0=BC=D0=B5=D0=BD=D1=82 =E2=80=9C=D0=9A=D0=
+=BD=D0=BE=D0=BF=D0=BA=D0=B0 =D0=92=D0=BE=D0=B9=D1=82=D0=B8=E2=80=9D;</p></l=
+i>
+<li>
+<p>=D0=A4=D1=83=D0=BD=D0=BA=D1=86=D0=B8=D0=BE=D0=BD=D0=B0=D0=BB=D1=8C=D0=BD=
+=D1=8B=D0=B9 =D1=84=D0=BE=D1=80=D0=BC=D0=B0 =E2=80=9C=D0=92=D0=BE=D0=B9=D1=
+=82=D0=B8 =D0=B2 =D0=B0=D0=BA=D0=BA=D0=B0=D1=83=D0=BD=D1=82=E2=80=9D;</p></=
+li>
+<li>
+<p>&nbsp;=D0=A4=D1=83=D0=BD=D0=BA=D1=86=D0=B8=D0=BE=D0=BD=D0=B0=D0=BB=D1=8C=
+=D0=BD=D1=8B=D0=B9 =D1=8D=D0=BB=D0=B5=D0=BC=D0=B5=D0=BD=D1=82 =E2=80=9C=D0=
+=98=D0=B7=D0=B1=D1=80=D0=B0=D0=BD=D0=BD=D0=BE=D0=B5=E2=80=9D;</p></li>
+<li>
+<p>&nbsp;=D0=A4=D1=83=D0=BD=D0=BA=D1=86=D0=B8=D0=BE=D0=BD=D0=B0=D0=BB=D1=8C=
+=D0=BD=D1=8B=D0=B9 =D0=B1=D0=BB=D0=BE=D0=BA =E2=80=9C=D0=9A=D0=BE=D1=80=D0=
+=B7=D0=B8=D0=BD=D0=B0=E2=80=9D;</p></li>
+<li>
+<p>&nbsp;=D0=A4=D1=83=D0=BD=D0=BA=D1=86=D0=B8=D0=BE=D0=BD=D0=B0=D0=BB=D1=8C=
+=D0=BD=D1=8B=D0=B9 =D0=B1=D0=BB=D0=BE=D0=BA =E2=80=9C=D0=9E=D1=84=D0=BE=D1=
+=80=D0=BC=D0=BB=D0=B5=D0=BD=D0=B8=D0=B5 =D0=B7=D0=B0=D0=BA=D0=B0=D0=B7=D0=
+=B0=E2=80=9D;</p></li>
+<li>
+<p>&nbsp;=D0=A4=D1=83=D0=BD=D0=BA=D1=86=D0=B8=D0=BE=D0=BD=D0=B0=D0=BB=D1=8C=
+=D0=BD=D1=8B=D0=B9 =D0=B1=D0=BB=D0=BE=D0=BA =E2=80=9C=D0=93=D0=BB=D0=B0=D0=
+=B2=D0=BD=D0=B0=D1=8F =D1=81=D1=82=D1=80=D0=B0=D0=BD=D0=B8=D1=86=D0=B0=E2=
+=80=9D;</p></li>
+<li>
+<p>&nbsp;=D0=A4=D1=83=D0=BD=D0=BA=D1=86=D0=B8=D0=BE=D0=BD=D0=B0=D0=BB=D1=8C=
+=D0=BD=D1=8B=D0=B9 =D0=B1=D0=BB=D0=BE=D0=BA =E2=80=9C=D0=A1=D1=82=D1=80=D0=
+=B0=D0=BD=D0=B8=D1=86=D0=B0 =D1=82=D0=BE=D0=B2=D0=B0=D1=80=D0=B0=E2=80=9D;<=
+/p></li>
+<li>
+<p>&nbsp;=D0=A4=D1=83=D0=BD=D0=BA=D1=86=D0=B8=D0=BE=D0=BD=D0=B0=D0=BB=D1=8C=
+=D0=BD=D1=8B=D0=B9 =D0=B1=D0=BB=D0=BE=D0=BA =E2=80=9C=D0=9F=D0=BE=D0=B4=D0=
+=BF=D0=B8=D1=81=D0=BA=D0=B0 =D0=BD=D0=B0 =D1=80=D0=B0=D1=81=D1=81=D1=8B=D0=
+=BB=D0=BA=D1=83=E2=80=9D;&nbsp;</p></li>
+<li>
+<p>=D0=A4=D1=83=D0=BD=D0=BA=D1=86=D0=B8=D0=BE=D0=BD=D0=B0=D0=BB=D1=8C=D0=BD=
+=D1=8B=D0=B9 =D0=B1=D0=BB=D0=BE=D0=BA =E2=80=9C=D0=A1=D0=BE=D1=86=D0=B8=D0=
+=B0=D0=BB=D1=8C=D0=BD=D1=8B=D0=B5 =D0=A1=D0=B5=D1=82=D0=B8=E2=80=9D;</p></l=
+i>
+</ol>
+<p></p>
+<ul>
+<li>
+<p><strong>Features Not To Be Tested</strong></p></li>
+</ul>
+<ol start=3D"1">
+<li>
+<p>=D0=92=D1=85=D0=BE=D0=B4 =D0=B4=D0=BB=D1=8F =D1=81=D0=BE=D1=82=D1=80=D1=
+=83=D0=B4=D0=BD=D0=B8=D0=BA=D0=BE=D0=B2;</p></li>
+<li>
+<p>=D0=92=D1=85=D0=BE=D0=B4 =D0=B4=D0=BB=D1=8F =D0=BF=D1=80=D0=BE=D0=B4=D0=
+=B0=D0=B2=D1=86=D0=BE=D0=B2 =D1=81=D0=B0=D0=B9=D1=82=D0=B0;</p></li>
+<li>
+<p>=D0=9C=D0=BE=D0=B1=D0=B8=D0=BB=D1=8C=D0=BD=D0=B0=D1=8F =D0=B2=D0=B5=D1=
+=80=D1=81=D0=B8=D1=8F =D1=81=D0=B0=D0=B9=D1=82=D0=B0;</p></li>
+<li>
+<p>=D0=A2=D0=B5=D1=81=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=B5=
+ =D0=B1=D0=B5=D0=B7=D0=BE=D0=BF=D0=B0=D1=81=D0=BD=D0=BE=D1=81=D1=82=D0=B8;<=
+/p></li>
+<li>
+<p>=D0=A1=D1=82=D1=80=D0=B5=D1=81=D1=81-=D1=82=D0=B5=D1=81=D1=82=D0=B8=D1=
+=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=B5;</p></li>
+<li>
+<p>=D0=A2=D0=B5=D1=81=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=B5=
+ =D0=BB=D0=BE=D0=BA=D0=B0=D0=BB=D0=B8=D0=B7=D0=B0=D1=86=D0=B8=D0=B8;</p></l=
+i>
+</ol>
+<p></p>
+<ul>
+<li>
+<p><strong>Approach</strong></p></li>
+</ul>
+<ol start=3D"1">
+<li>
+<p><strong>=D0=A4=D1=83=D0=BD=D0=BA=D1=86=D0=B8=D0=BE=D0=BD=D0=B0=D0=BB=D1=
+=8C=D0=BD=D0=BE=D0=B5 =D1=82=D0=B5=D1=81=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=
+=B0=D0=BD=D0=B8=D0=B5.</strong></p></li>
+</ol>
+<p>=D0=92 =D0=BF=D1=80=D0=BE=D1=86=D0=B5=D1=81=D1=81=D0=B5 =D1=82=D0=B5=D1=
+=81=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F =D1=81=D0=B0=D0=
+=B9=D1=82=D0=B0 <a class=3D"external-link" data-card-appearance=3D"inline" =
+href=3D"https://www.etsy.com/" rel=3D"nofollow">https://www.etsy.com/</a> =
+=D0=B1=D1=83=D0=B4=D0=B5=D1=82 =D0=BF=D1=80=D0=B8=D0=BC=D0=B5=D0=BD=D0=B5=
+=D0=BD=D0=BE =D1=84=D1=83=D0=BD=D0=BA=D1=86=D0=B8=D0=BE=D0=BD=D0=B0=D0=BB=
+=D1=8C=D0=BD=D0=BE=D0=B5 =D1=82=D0=B5=D1=81=D1=82=D0=B8=D1=80=D0=BE=D0=B2=
+=D0=B0=D0=BD=D0=B8=D0=B5 =D0=BE=D1=81=D0=BD=D0=BE=D0=B2=D0=B0=D0=BD=D0=BD=
+=D0=BE=D0=B5 =D0=BD=D0=B0 =D1=81=D0=BE=D1=81=D1=82=D0=B0=D0=B2=D0=BB=D0=B5=
+=D0=BD=D0=BD=D1=8B=D1=85 =D1=82=D0=B5=D1=81=D1=82 =D0=BA=D0=B5=D0=B9=D1=81=
+=D0=B0=D1=85 =D0=B8=D0=B7 =D0=B4=D0=BE=D0=BA=D1=83=D0=BC=D0=B5=D0=BD=D1=82=
+=D0=B0 =E2=80=9C<a class=3D"external-link" href=3D"https://docs.google.com/=
+spreadsheets/d/14ZbRhnsicVYVgZ_ZCr1ylXVB8do2qjJcc0CKajGfuJ4/edit?usp=3Dshar=
+ingedit?usp=3Dsharing8Nm_icb_vUWyRtosms/edit?usp=3DsharingdARFQ/edit?usp=3D=
+sharing" rel=3D"nofollow"><u>Test cases</u></a>=E2=80=9D =D0=BD=D0=B0 =D0=
+=B1=D0=B0=D0=B7=D0=B5 =D0=BF=D0=BE=D0=BB=D1=83=D1=87=D0=B5=D0=BD=D0=BD=D0=
+=BE=D0=B9 =D1=81=D0=BF=D0=B5=D1=86=D0=B8=D1=84=D0=B8=D0=BA=D0=B0=D1=86=D0=
+=B8=D0=B8 =D0=BF=D1=80=D0=BE=D0=B4=D1=83=D0=BA=D1=82=D0=B0 =E2=80=9C<a clas=
+s=3D"external-link" href=3D"https://docs.google.com/document/d/1sKF0Z1kU-8W=
+GUI1hxWjV36rnIqL4U2RRipNtk37ylBA/edit?usp=3Dsharinging0F8URC8/edit?usp=3Dsh=
+aringsJuBDq5su4Uoq5PrkUw/edit?usp=3DsharinggEXERw7L5E01fpq9AM/edit?usp=3Dsh=
+aring" rel=3D"nofollow"><u>SRS</u></a>=E2=80=9D.&nbsp;</p>
+<p>=D0=94=D0=B5=D1=84=D0=B5=D0=BA=D1=82=D1=8B =D0=BD=D0=B0=D0=B9=D0=B4=D0=
+=B5=D0=BD=D0=BD=D1=8B=D0=B5 =D0=B2 =D0=BF=D1=80=D0=BE=D1=86=D0=B5=D1=81=D1=
+=81=D0=B5 =D1=82=D0=B5=D1=81=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=
+=B8=D1=8F =D0=B1=D1=83=D0=B4=D1=83=D1=82 =D0=BE=D0=BF=D0=B8=D1=81=D0=B0=D0=
+=BD=D1=8B =D0=B2 =D0=B4=D0=BE=D0=BA=D1=83=D0=BC=D0=B5=D0=BD=D1=82=D0=B5 =E2=
+=80=9C<a class=3D"external-link" href=3D"https://docs.google.com/spreadshee=
+ts/d/12-6kzXc9GfF6pVVuEVdBC2x3In-sHrVroZXKDcOEh0E/edit?usp=3Dsharingharingu=
+sp=3Dsharing" rel=3D"nofollow"><u>Bug Report</u></a>=E2=80=9D&nbsp; =D0=B4=
+=D0=BB=D1=8F =D0=B8=D1=85 =D0=B1=D1=83=D0=B4=D1=83=D1=89=D0=B5=D0=B3=D0=BE =
+=D0=B8=D1=81=D0=BF=D1=80=D0=B0=D0=B2=D0=BB=D0=B5=D0=BD=D0=B8=D1=8F.&nbsp;</=
+p>
+<ol start=3D"2">
+<li>
+<p><strong>=D0=A2=D0=B5=D1=81=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=
+=B8=D0=B5 =D1=81=D0=BE=D0=B2=D0=BC=D0=B5=D1=81=D1=82=D0=B8=D0=BC=D0=BE=D1=
+=81=D1=82=D0=B8.</strong></p></li>
+</ol>
+<p>=D0=92 =D0=BF=D1=80=D0=BE=D1=86=D0=B5=D1=81=D1=81=D0=B5 =D1=82=D0=B5=D1=
+=81=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F =D0=BA=D1=80=D0=
+=BE=D1=81=D1=81=D0=B1=D1=80=D0=B0=D1=83=D0=B7=D0=B5=D1=80=D0=BD=D0=BE=D1=81=
+=D1=82=D0=B8 =D0=B1=D1=83=D0=B4=D0=B5=D1=82 =D0=BF=D1=80=D0=BE=D0=B2=D0=B5=
+=D0=B4=D0=B5=D0=BD=D0=B0 =D0=BF=D1=80=D0=BE=D0=B2=D0=B5=D1=80=D0=BA=D0=B0 =
+=D0=BD=D0=B0 =D0=BA=D0=BE=D1=80=D1=80=D0=B5=D0=BA=D1=82=D0=BD=D0=BE=D0=B5 =
+=D0=BE=D1=82=D0=BE=D0=B1=D1=80=D0=B0=D0=B6=D0=B5=D0=BD=D0=B8=D0=B5 =D0=B4=
+=D0=B8=D0=B7=D0=B0=D0=B9=D0=BD=D0=B0 =D1=81=D0=B0=D0=B9=D1=82=D0=B0 =D0=B8 =
+=D1=80=D0=B0=D0=B1=D0=BE=D1=82=D0=BE=D1=81=D0=BF=D0=BE=D1=81=D0=BE=D0=B1=D0=
+=BD=D0=BE=D1=81=D1=82=D1=8C =D0=B5=D0=B3=D0=BE =D1=84=D1=83=D0=BD=D0=BA=D1=
+=86=D0=B8=D0=BE=D0=BD=D0=B0=D0=BB=D0=B0 =D0=B2 =D0=B1=D1=80=D0=B0=D1=83=D0=
+=B7=D0=B5=D1=80=D0=B0=D1=85 =D1=83=D0=BA=D0=B0=D0=B7=D0=B0=D0=BD=D0=BD=D1=
+=8B=D1=85 =D0=B2 =D1=81=D0=BF=D0=B5=D1=86=D0=B8=D1=84=D0=B8=D0=BA=D0=B0=D1=
+=86=D0=B8=D0=B8.</p>
+<p>=D0=9E=D0=A1, =D1=83=D1=82=D0=B2=D0=B5=D1=80=D0=B6=D0=B4=D0=B5=D0=BD=D0=
+=BD=D1=8B=D0=B5 =D0=BA =D0=BF=D1=80=D0=BE=D0=B2=D0=B5=D1=80=D0=BA=D0=B5:&nb=
+sp;</p>
+<ul>
+<li>
+<p>Windows 10 64-bit</p></li>
+</ul>
+<p>=D0=91=D1=80=D0=B0=D1=83=D0=B7=D0=B5=D1=80=D1=8B, =D1=83=D1=82=D0=B2=D0=
+=B5=D1=80=D0=B6=D0=B4=D0=B5=D0=BD=D0=BD=D1=8B=D0=B5 =D0=BA =D0=BF=D1=80=D0=
+=BE=D0=B2=D0=B5=D1=80=D0=BA=D0=B5:&nbsp;</p>
+<ul>
+<li>
+<p>Google Chrome: Version 116.0.5845.188 (Official Build) (64-bit)&nbsp;</p=
+></li>
+<li>
+<p>Firefox: 117.0.1 (64-bit)<strong>&nbsp;</strong></p></li>
+<li>
+<p>Opera One: version: 102.0.4880.56</p></li>
+</ul>
+<p></p>
+<ul>
+<li>
+<p><strong>Item Pass/Fail Criteria</strong>&nbsp;</p></li>
+</ul>
+<ul>
+<li>
+<p>=D0=9A=D1=80=D0=B8=D1=82=D0=B5=D1=80=D0=B8=D0=B8 =D0=BF=D1=80=D0=B8=D0=
+=BE=D1=81=D1=82=D0=B0=D0=BD=D0=BE=D0=B2=D0=BA=D0=B8: =D0=95=D1=81=D0=BB=D0=
+=B8 =D0=BF=D1=80=D0=B8 =D0=BF=D1=80=D0=BE=D0=B2=D0=B5=D0=B4=D0=B5=D0=BD=D0=
+=B8=D0=B8 =D1=82=D0=B5=D1=81=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=
+=B8=D1=8F =D0=BD=D0=B0=D0=B9=D0=B4=D0=B5=D0=BD =D0=B4=D0=B5=D1=84=D0=B5=D0=
+=BA=D1=82, =D0=BA=D0=BE=D1=82=D0=BE=D1=80=D1=8B=D0=B9 =D0=B2=D0=BB=D0=B8=D1=
+=8F=D0=B5=D1=82 =D0=BD=D0=B0 =D0=B4=D0=B0=D0=BB=D1=8C=D0=BD=D0=B5=D0=B9=D1=
+=88=D1=83=D1=8E =D1=80=D0=B0=D0=B1=D0=BE=D1=82=D1=83 =D1=84=D1=83=D0=BD=D0=
+=BA=D1=86=D0=B8=D0=BE=D0=BD=D0=B0=D0=BB=D1=8C=D0=BD=D0=BE=D1=81=D1=82=D0=B8=
+ =D0=BC=D0=BE=D0=B4=D1=83=D0=BB=D1=8F =D0=A5, =D1=82=D0=B5=D1=81=D1=82=D0=
+=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=B5 =D0=BC=D0=BE=D0=B4=D1=83=D0=
+=BB=D1=8F =D0=A5 =D0=BF=D1=80=D0=B8=D0=BE=D1=81=D1=82=D0=B0=D0=BD=D0=B0=D0=
+=B2=D0=BB=D0=B8=D0=B2=D0=B0=D0=B5=D1=82=D1=81=D1=8F.&nbsp; =D0=94=D0=B5=D1=
+=84=D0=B5=D0=BA=D1=82 =D0=BF=D0=B5=D1=80=D0=B5=D0=B4=D0=B0=D0=B5=D1=82=D1=
+=81=D1=8F =D0=BD=D0=B0 =D0=B8=D1=81=D0=BF=D1=80=D0=B0=D0=B2=D0=BB=D0=B5=D0=
+=BD=D0=B8=D0=B5 =D1=80=D0=B0=D0=B7=D1=80=D0=B0=D0=B1=D0=BE=D1=82=D1=87=D0=
+=B8=D0=BA=D0=B0=D0=BC.</p></li>
+<li>
+<p>=D0=9A=D1=80=D0=B8=D1=82=D0=B5=D1=80=D0=B8=D0=B8 =D0=B7=D0=B0=D0=B2=D0=
+=B5=D1=80=D1=88=D0=B5=D0=BD=D0=B8=D1=8F: =D0=AD=D0=BB=D0=B5=D0=BC=D0=B5=D0=
+=BD=D1=82 =D0=B1=D1=83=D0=B4=D0=B5=D1=82 =D1=81=D1=87=D0=B8=D1=82=D0=B0=D1=
+=82=D1=8C=D1=81=D1=8F =C2=AB=D0=BF=D1=80=D0=BE=D0=B9=D0=B4=D0=B5=D0=BD=D0=
+=BD=D1=8B=D0=BC=C2=BB, =D0=B5=D1=81=D0=BB=D0=B8 =D0=BE=D0=BD =D1=81=D0=BE=
+=D0=BE=D1=82=D0=B2=D0=B5=D1=82=D1=81=D1=82=D0=B2=D1=83=D0=B5=D1=82 =C2=AB=
+=D0=BE=D0=B6=D0=B8=D0=B4=D0=B0=D0=B5=D0=BC=D0=BE=D0=BC=D1=83 =D1=80=D0=B5=
+=D0=B7=D1=83=D0=BB=D1=8C=D1=82=D0=B0=D1=82=D1=83=C2=BB, =D0=BE=D0=BF=D1=80=
+=D0=B5=D0=B4=D0=B5=D0=BB=D0=B5=D0=BD=D0=BD=D0=BE=D0=BC=D1=83 =D0=B2 =D1=81=
+=D0=BE=D0=BE=D1=82=D0=B2=D0=B5=D1=82=D1=81=D1=82=D0=B2=D1=83=D1=8E=D1=89=D0=
+=B5=D0=BC =D1=82=D0=B5=D1=81=D1=82=D0=BE=D0=B2=D0=BE=D0=BC =D0=BF=D1=80=D0=
+=B8=D0=BC=D0=B5=D1=80=D0=B5.&nbsp;</p></li>
+</ul>
+<p></p>
+<ul>
+<li>
+<p><strong>Suspension Criteria and Resumption Requirements</strong>&nbsp;</=
+p></li>
+</ul>
+<ul>
+<li>
+<p>=D0=9A=D1=80=D0=B8=D1=82=D0=B5=D1=80=D0=B8=D0=B8 =D0=BE=D1=81=D1=82=D0=
+=B0=D0=BD=D0=BE=D0=B2=D0=BA=D0=B8 =D1=82=D0=B5=D1=81=D1=82=D0=B8=D1=80=D0=
+=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F: =D0=95=D1=81=D0=BB=D0=B8 =D0=B2 =D0=BF=
+=D1=80=D0=BE=D1=86=D0=B5=D1=81=D1=81=D0=B5 =D1=82=D0=B5=D1=81=D1=82=D0=B8=
+=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F =D0=B1=D1=83=D0=B4=D0=B5=D1=82 =
+=D0=B4=D0=BE=D1=81=D1=82=D0=B8=D0=B3=D0=BD=D1=83=D1=82=D0=B0 =D0=BA=D1=80=
+=D0=B8=D1=82=D0=B8=D1=87=D0=B5=D1=81=D0=BA=D0=B0=D1=8F =D0=BE=D1=82=D0=BC=
+=D0=B5=D1=82=D0=BA=D0=B0 =D0=B2 40% =D1=82=D0=B5=D1=81=D1=82=D0=BE=D0=B2=D1=
+=8B=D1=85 =D1=81=D0=BB=D1=83=D1=87=D0=B0=D0=B5=D0=B2, =D0=BA=D0=BE=D1=82=D0=
+=BE=D1=80=D1=8B=D0=B5 =D0=BD=D0=B5 =D0=BF=D1=80=D0=BE=D1=88=D0=BB=D0=B8 =D1=
+=83=D1=81=D0=BF=D0=B5=D1=88=D0=BD=D1=83=D1=8E =D0=BF=D1=80=D0=BE=D0=B2=D0=
+=B5=D1=80=D0=BA=D1=83, =D1=82=D0=B5=D1=81=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=
+=B0=D0=BD=D0=B8=D0=B5 =D0=B1=D1=83=D0=B4=D0=B5=D1=82 =D0=BF=D1=80=D0=B8=D0=
+=BE=D1=81=D1=82=D0=B0=D0=BD=D0=BE=D0=B2=D0=BB=D0=B5=D0=BD=D0=BE =D0=BD=D0=
+=B0 =D0=BF=D0=B5=D1=80=D0=B8=D0=BE=D0=B4 =D0=B8=D1=81=D0=BF=D1=80=D0=B0=D0=
+=B2=D0=BB=D0=B5=D0=BD=D0=B8=D1=8F =D0=BD=D0=B0=D0=B9=D0=B4=D0=B5=D0=BD=D0=
+=BD=D1=8B=D1=85 =D0=B4=D0=B5=D1=84=D0=B5=D0=BA=D1=82=D0=BE=D0=B2.</p></li>
+<li>
+<p>=D0=9A=D1=80=D0=B8=D1=82=D0=B5=D1=80=D0=B8=D0=B8 =D0=B2=D0=BE=D0=B7=D0=
+=BE=D0=B1=D0=BD=D0=BE=D0=B2=D0=BB=D0=B5=D0=BD=D0=B8=D1=8F =D1=82=D0=B5=D1=
+=81=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F: =D0=95=D1=81=D0=
+=BB=D0=B8 =D0=B2=D1=81=D0=B5 =D0=BD=D0=B0=D0=B9=D0=B4=D0=B5=D0=BD=D0=BD=D1=
+=8B=D0=B5 =D1=80=D0=B0=D0=BD=D0=B5=D0=B5 =D0=B4=D0=B5=D1=84=D0=B5=D0=BA=D1=
+=82=D1=8B =D0=B1=D1=83=D0=B4=D1=83=D1=82 =D0=B8=D1=81=D0=BF=D1=80=D0=B0=D0=
+=B2=D0=BB=D0=B5=D0=BD=D1=8B =D1=80=D0=B0=D0=B7=D1=80=D0=B0=D0=B1=D0=BE=D1=
+=82=D1=87=D0=B8=D0=BA=D0=B0=D0=BC=D0=B8. =D0=A2=D0=B5=D1=81=D1=82=D0=B8=D1=
+=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=B5 =D0=BF=D1=80=D0=BE=D0=B5=D0=BA=D1=
+=82=D0=B0 =D0=B1=D1=83=D0=B4=D0=B5=D1=82 =D0=B2=D0=BE=D0=B7=D0=BE=D0=B1=D0=
+=BD=D0=BE=D0=B2=D0=BB=D0=B5=D0=BD=D0=BE.</p></li>
+</ul>
+<p></p>
+<ul>
+<li>
+<p><strong>Test Deliverables</strong>&nbsp;</p></li>
+</ul>
+<ol start=3D"1">
+<li>
+<p><a class=3D"external-link" href=3D"https://docs.google.com/document/d/1s=
+KF0Z1kU-8WGUI1hxWjV36rnIqL4U2RRipNtk37ylBA/edit?usp=3Dsharing=3Dsharingt?us=
+p=3DsharingERw7L5E01fpq9AM/edit?usp=3Dsharing" rel=3D"nofollow"><u>SRS</u><=
+/a></p></li>
+<li>
+<p><a class=3D"external-link" href=3D"https://docs.google.com/document/d/1z=
+nKPQks_NNEslmlJNoebw4c_fLWtEKNx1nqBq5I8llI/edit?usp=3Dsharingsharing" rel=
+=3D"nofollow"><u>Test Plan</u></a></p></li>
+<li>
+<p><a class=3D"external-link" href=3D"https://docs.google.com/spreadsheets/=
+d/1BsDBrPT0mw2Z9UraA-1evMYyWQ_Sj_0IFulZZ6r_P8w/edit?usp=3Dsharingbk/edit?us=
+p=3Dsharingt?usp=3DsharingURY4WdPmkG-QyDGPkYWV8I8/edit?usp=3Dsharing" rel=
+=3D"nofollow"><u>Check List</u></a></p></li>
+<li>
+<p><a class=3D"external-link" href=3D"https://docs.google.com/spreadsheets/=
+d/14ZbRhnsicVYVgZ_ZCr1ylXVB8do2qjJcc0CKajGfuJ4/edit?usp=3Dsharing4/edit?usp=
+=3DsharingjwNBXrSUsbk_lXbXEUUng8/edit?usp=3DsharingWyRtosms/edit?usp=3Dshar=
+ingWfhGsAjbCOMtnk0dARFQ/edit?usp=3Dsharing" rel=3D"nofollow"><u>Test cases<=
+/u></a></p></li>
+<li>
+<p><a class=3D"external-link" href=3D"https://docs.google.com/spreadsheets/=
+d/12-6kzXc9GfF6pVVuEVdBC2x3In-sHrVroZXKDcOEh0E/edit?usp=3DsharingKL2XK5wA/e=
+dit?usp=3DsharingLdbuR0jbG9i3gIlbrstnjN4k-jLVMW4LY/edit?usp=3Dsharing-8OhIZ=
+ROQDoeCJIWSX4csZNA/edit?usp=3Dsharing" rel=3D"nofollow"><u>Bug Report</u></=
+a></p></li>
+<li>
+<p><a class=3D"external-link" href=3D"https://docs.google.com/document/d/1X=
+BLNkeTf_Sip5vREmORmzD70xtQIZQJbBS4qOys01Wc/edit?usp=3DsharingZI9eQ9JvOmjMNl=
+E/edit?usp=3DsharingGT3xWsIUj7W8493aSuDM/edit?usp=3Dsharing" rel=3D"nofollo=
+w"><u>Test Report</u></a></p></li>
+<li>
+<p><a class=3D"external-link" href=3D"https://docs.google.com/spreadsheets/=
+d/1yF9KidSZbmACThy0FU2AyzaVrcmitE9P_Lb0WxZvg8M/edit?usp=3DsharingZvg8M/edit=
+?usp=3DsharingGKcWIbSL5F0XDrxEdGuA6rZv-1QU/edit?usp=3DsharingQR4a40zqege0li=
+OFt13rg/edit?usp=3Dsharingsp=3Dsharing" rel=3D"nofollow"><u>RTM</u></a></p>=
+</li>
+</ol>
+<p></p>
+<ul>
+<li>
+<p><strong>Environmental Needs&nbsp;</strong></p></li>
+</ul>
+<p>1 =D0=BF=D0=B5=D1=80=D1=81=D0=BE=D0=BD=D0=B0=D0=BB=D1=8C=D0=BD=D1=8B=D0=
+=B9 =D0=BA=D0=BE=D0=BC=D0=BF=D1=8C=D1=8E=D1=82=D0=B5=D1=80</p>
+<p>Intel(R) Core(TM) i7-5600U CPU @ 2.60GHz &nbsp; 2.60 GHz&nbsp;</p>
+<p>=D0=A1 =D1=83=D1=81=D1=82=D0=B0=D0=BD=D0=BE=D0=B2=D0=BB=D0=B5=D0=BD=D0=
+=BD=D0=BE=D0=B9 =D0=9E=D0=A1 Windows 10;</p>
+<p>=D0=9D=D0=B0 =D0=BA=D0=B0=D0=B6=D0=B4=D0=BE=D0=BC =D0=9F=D0=9A, =D0=BD=
+=D0=B0 =D0=BA=D0=BE=D1=82=D0=BE=D1=80=D0=BE=D0=BC =D0=B1=D1=83=D0=B4=D0=B5=
+=D1=82 =D0=BF=D1=80=D0=BE=D1=85=D0=BE=D0=B4=D0=B8=D1=82=D1=8C =D1=82=D0=B5=
+=D1=81=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=B5, =D0=B1=D1=83=
+=D0=B4=D1=83=D1=82 =D1=83=D1=81=D1=82=D0=B0=D0=BD=D0=BE=D0=B2=D0=BB=D0=B5=
+=D0=BD=D1=8B =D1=81=D0=BB=D0=B5=D0=B4=D1=83=D1=8E=D1=89=D0=B8=D0=B5 =D0=B1=
+=D1=80=D0=B0=D1=83=D0=B7=D0=B5=D1=80=D1=8B:</p>
+<ul>
+<li>
+<p>Google Chrome: Version 116.0.5845.188 (Official Build) (64-bit)&nbsp;</p=
+></li>
+<li>
+<p>Firefox: 117.0.1 (64-bit)<strong>&nbsp;</strong></p></li>
+<li>
+<p>Opera One: version: 102.0.4880.56</p></li>
+</ul>
+<p></p>
+<ul>
+<li>
+<p><strong>Responsibilities</strong></p></li>
+</ul>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"89=
+1b5188-d3fe-4cb2-9a3b-393a4d8290e3" class=3D"confluenceTable">
+<tbody>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>=D0=97=D0=B0=D0=B4=D0=B0=D1=87=D0=B0</strong></p></td>
+<td class=3D"confluenceTd">
+<p><strong>QA1</strong></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><a class=3D"external-link" href=3D"https://drive.google.com/file/d/1Txy_=
+8v2L-TYnkeXTjfmSWW_p_Wpe6GNY/view?usp=3Dsharingsharingview?usp=3Dsharing" r=
+el=3D"nofollow"><u>Mind Map</u></a></p></td>
+<td data-highlight-colour=3D"#00ff00" class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><a class=3D"external-link" href=3D"https://docs.google.com/document/d/1s=
+KF0Z1kU-8WGUI1hxWjV36rnIqL4U2RRipNtk37ylBA/edit?usp=3Dsharing=3Dsharingt?us=
+p=3DsharingERw7L5E01fpq9AM/edit?usp=3Dsharing" rel=3D"nofollow"><u>SRS</u><=
+/a></p></td>
+<td data-highlight-colour=3D"#00ff00" class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><a class=3D"external-link" href=3D"https://docs.google.com/document/d/1z=
+nKPQks_NNEslmlJNoebw4c_fLWtEKNx1nqBq5I8llI/edit?usp=3Dsharingsharing" rel=
+=3D"nofollow"><u>Test Plan</u></a></p></td>
+<td data-highlight-colour=3D"#00ff00" class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><a class=3D"external-link" href=3D"https://docs.google.com/spreadsheets/=
+d/1BsDBrPT0mw2Z9UraA-1evMYyWQ_Sj_0IFulZZ6r_P8w/edit?usp=3Dsharingbk/edit?us=
+p=3Dsharingt?usp=3DsharingURY4WdPmkG-QyDGPkYWV8I8/edit?usp=3Dsharing" rel=
+=3D"nofollow"><u>Check List</u></a></p></td>
+<td data-highlight-colour=3D"#00ff00" class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><a class=3D"external-link" href=3D"https://docs.google.com/spreadsheets/=
+d/14ZbRhnsicVYVgZ_ZCr1ylXVB8do2qjJcc0CKajGfuJ4/edit?usp=3Dsharingo2qjJcc0CK=
+ajGfuJ4/edit?usp=3DsharingjwNBXrSUsbk_lXbXEUUng8/edit?usp=3DsharingWyRtosms=
+/edit?usp=3DsharingWfhGsAjbCOMtnk0dARFQ/edit?usp=3Dsharing" rel=3D"nofollow=
+"><u>Test cases</u></a></p></td>
+<td data-highlight-colour=3D"#00ff00" class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><a class=3D"external-link" href=3D"https://docs.google.com/spreadsheets/=
+d/12-6kzXc9GfF6pVVuEVdBC2x3In-sHrVroZXKDcOEh0E/edit?usp=3DsharingKL2XK5wA/e=
+dit?usp=3DsharingLdbuR0jbG9i3gIlbrstnjN4k-jLVMW4LY/edit?usp=3Dsharing-8OhIZ=
+ROQDoeCJIWSX4csZNA/edit?usp=3Dsharing" rel=3D"nofollow"><u>Bug Report</u></=
+a></p></td>
+<td data-highlight-colour=3D"#00ff00" class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><a class=3D"external-link" href=3D"https://docs.google.com/document/d/1X=
+BLNkeTf_Sip5vREmORmzD70xtQIZQJbBS4qOys01Wc/edit?usp=3DsharingZI9eQ9JvOmjMNl=
+E/edit?usp=3DsharingGT3xWsIUj7W8493aSuDM/edit?usp=3Dsharing" rel=3D"nofollo=
+w"><u>Test Report</u></a></p></td>
+<td data-highlight-colour=3D"#00ff00" class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><a class=3D"external-link" href=3D"https://docs.google.com/spreadsheets/=
+d/1yF9KidSZbmACThy0FU2AyzaVrcmitE9P_Lb0WxZvg8M/edit?usp=3DsharingGKcWIbSL5F=
+0XDrxEdGuA6rZv-1QU/edit?usp=3DsharingQR4a40zqege0liOFt13rg/edit?usp=3Dshari=
+ngsp=3Dsharing" rel=3D"nofollow"><u>RTM</u></a></p></td>
+<td data-highlight-colour=3D"#00ff00" class=3D"confluenceTd">
+<p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+<ul>
+<li>
+<p><strong>Risks</strong></p></li>
+</ul>
+<ol start=3D"1">
+<li>
+<p>=D0=A2=D0=B5=D1=85=D0=BD=D0=B8=D1=87=D0=B5=D1=81=D0=BA=D0=B8=D0=B5 =D0=
+=BF=D1=80=D0=BE=D0=B1=D0=BB=D0=B5=D0=BC=D1=8B =D1=81 =D1=82=D0=B5=D1=81=D1=
+=82=D0=BE=D0=B2=D1=8B=D0=BC =D0=BE=D0=B1=D0=BE=D1=80=D1=83=D0=B4=D0=BE=D0=
+=B2=D0=B0=D0=BD=D0=B8=D0=B5=D0=BC;</p></li>
+<li>
+<p>=D0=93=D0=BE=D1=80=D0=BE=D0=B4=D1=81=D0=BA=D0=B8=D0=B5 =D0=BF=D1=80=D0=
+=BE=D0=B1=D0=BB=D0=B5=D0=BC=D1=8B =D1=81 =D1=8D=D0=BB=D0=B5=D0=BA=D1=82=D1=
+=80=D0=B8=D1=87=D0=B5=D1=81=D1=82=D0=B2=D0=BE=D0=BC;</p></li>
+<li>
+<p>=D0=9D=D0=B5 =D1=80=D0=B0=D0=B1=D0=BE=D1=82=D0=B0=D0=B5=D1=82 =D1=82=D0=
+=B5=D1=81=D1=82=D0=BE=D0=B2=D1=8B=D0=B9 =D1=81=D0=B0=D0=B9=D1=82/=D1=81=D0=
+=B5=D1=80=D0=B2=D0=B5=D1=80;</p></li>
+</ol>
+<p></p>
+<ul>
+<li>
+<p><strong>Work plan</strong></p></li>
+</ul>
+<p></p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"d1=
+004f52-97f9-4d06-bc08-27463139e63f" class=3D"confluenceTable">
+<tbody>
+<tr>
+<td data-highlight-colour=3D"#b6d7a8" class=3D"confluenceTd">
+<p><strong>=D0=97=D0=B0=D0=B4=D0=B0=D1=87=D0=B0</strong></p></td>
+<td data-highlight-colour=3D"#b6d7a8" class=3D"confluenceTd">
+<p><strong>=D0=9E=D0=B1=D1=8A=D0=B5=D0=BC =D1=80=D0=B0=D0=B1=D0=BE=D1=82=D1=
+=8B, =D1=87=D0=B0=D1=81.</strong></p></td>
+<td data-highlight-colour=3D"#b6d7a8" class=3D"confluenceTd">
+<p><strong>=D0=94=D0=B0=D1=82=D0=B0 =D0=BD=D0=B0=D1=87=D0=B0=D0=BB=D0=B0</s=
+trong></p></td>
+<td data-highlight-colour=3D"#b6d7a8" class=3D"confluenceTd">
+<p><strong>=D0=94=D0=B0=D1=82=D0=B0 =D0=9E=D0=BA=D0=BE=D0=BD=D1=87=D0=B0=D0=
+=BD=D0=B8=D1=8F</strong></p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#efefef" class=3D"confluenceTd">
+<p><em>=D0=A2=D0=B5=D1=81=D1=82 =D0=BF=D0=BB=D0=B0=D0=BD</em></p></td>
+<td class=3D"confluenceTd">
+<p>8</p></td>
+<td class=3D"confluenceTd">
+<p>16.10.2023</p></td>
+<td class=3D"confluenceTd">
+<p>16.10.2023</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#efefef" class=3D"confluenceTd">
+<p><em>=D0=A1=D0=BE=D1=81=D1=82=D0=B0=D0=B2=D0=BB=D0=B5=D0=BD=D0=B8=D0=B5 =
+=D1=82=D0=B5=D1=81=D1=82-=D0=BA=D0=B5=D0=B9=D1=81=D0=BE=D0=B2</em></p></td>
+<td class=3D"confluenceTd">
+<p>4</p></td>
+<td class=3D"confluenceTd">
+<p>17.10.2023</p></td>
+<td class=3D"confluenceTd">
+<p>17.10.2023</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#efefef" class=3D"confluenceTd">
+<p><em>=D0=A2=D0=B5=D1=81=D1=82 =D1=84=D1=83=D0=BD=D0=BA=D1=86=D0=B8=D0=BE=
+=D0=BD=D0=B0=D0=BB=D0=B0</em></p></td>
+<td class=3D"confluenceTd">
+<p>12</p></td>
+<td class=3D"confluenceTd">
+<p>18.10.2023</p></td>
+<td class=3D"confluenceTd">
+<p>18.10.2023</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#efefef" class=3D"confluenceTd">
+<p><em>=D0=9E=D0=BF=D0=B8=D1=81=D0=B0=D0=BD=D0=B8=D0=B5 =D0=BD=D0=B0=D0=B9=
+=D0=B4=D0=B5=D0=BD=D0=BD=D1=8B=D1=85 =D0=B4=D0=B5=D1=84=D0=B5=D0=BA=D1=82=
+=D0=BE=D0=B2</em></p></td>
+<td class=3D"confluenceTd">
+<p>3</p></td>
+<td class=3D"confluenceTd">
+<p>19.10.2023</p></td>
+<td class=3D"confluenceTd">
+<p>19.10.2023</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#efefef" class=3D"confluenceTd">
+<p><em>=D0=90=D0=BD=D0=B0=D0=BB=D0=B8=D0=B7 =D1=82=D0=B5=D1=81=D1=82=D0=B8=
+=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F</em></p></td>
+<td class=3D"confluenceTd">
+<p>5</p></td>
+<td class=3D"confluenceTd">
+<p>19.10.2023</p></td>
+<td class=3D"confluenceTd">
+<p>20.10.2023</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#efefef" class=3D"confluenceTd">
+<p><em>=D0=9F=D0=BE=D0=B4=D0=B2=D0=B5=D0=B4=D0=B5=D0=BD=D0=B8=D0=B5 =D0=B8=
+=D1=82=D0=BE=D0=B3=D0=BE=D0=B2</em></p></td>
+<td class=3D"confluenceTd">
+<p>4</p></td>
+<td class=3D"confluenceTd">
+<p>20.10.2023</p></td>
+<td class=3D"confluenceTd">
+<p>20.10.2023</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+<ul>
+<li>
+<p><strong>Test Result</strong></p></li>
+</ul>
+<p>&nbsp;&nbsp;&nbsp;=D0=9A=D0=BE=D0=BD=D0=B5=D1=87=D0=BD=D1=8B=D0=BC =D0=
+=B8=D1=82=D0=BE=D0=B3=D0=BE=D0=BC =D0=BF=D1=80=D0=BE=D0=B2=D0=B5=D0=B4=D0=
+=B5=D0=BD=D0=B8=D1=8F =D1=82=D0=B5=D1=81=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=
+=B0=D0=BD=D0=B8=D1=8F =D0=B4=D0=BE=D0=BB=D0=B6=D0=B5=D0=BD =D1=81=D1=82=D0=
+=B0=D1=82=D1=8C =D0=BE=D1=84=D0=BE=D1=80=D0=BC=D0=BB=D0=B5=D0=BD=D0=BD=D1=
+=8B=D0=B9 =D0=BA=D0=BE=D0=BD=D0=B5=D1=87=D0=BD=D1=8B=D0=B9 =D1=80=D0=B5=D0=
+=B7=D1=83=D0=BB=D1=8C=D1=82=D0=B0=D1=82 =D0=BF=D1=80=D0=BE=D1=86=D0=B5=D1=
+=81=D1=81=D0=B0 =D1=82=D0=B5=D1=81=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=
+=BD=D0=B8=D1=8F =D0=B2 =D0=B4=D0=BE=D0=BA=D1=83=D0=BC=D0=B5=D0=BD=D1=82=D0=
+=B5 =E2=80=9C<a class=3D"external-link" href=3D"https://docs.google.com/doc=
+ument/d/1XBLNkeTf_Sip5vREmORmzD70xtQIZQJbBS4qOys01Wc/edit?usp=3DsharingvOmj=
+MNlE/edit?usp=3DsharingCgGT3xWsIUj7W8493aSuDM/edit?usp=3Dsharing" rel=3D"no=
+follow"><u>Test Report</u></a>=E2=80=9D =D1=81 =D0=BE=D0=BF=D0=B8=D1=81=D0=
+=B0=D0=BD=D0=BD=D1=8B=D0=BC=D0=B8 =D0=B4=D0=B5=D1=84=D0=B5=D0=BA=D1=82=D0=
+=B0=D0=BC=D0=B8&nbsp; =E2=80=9C<a class=3D"external-link" href=3D"https://d=
+ocs.google.com/spreadsheets/d/12-6kzXc9GfF6pVVuEVdBC2x3In-sHrVroZXKDcOEh0E/=
+edit?usp=3DsharingXK5wA/edit?usp=3Dsharing8OhIZROQDoeCJIWSX4csZNA/edit?usp=
+=3Dsharing" rel=3D"nofollow"><u>Bug Reports</u></a>=E2=80=9D, =D0=B0 =D1=82=
+=D0=B0=D0=BA=D0=B6=D0=B5 =D1=80=D0=B5=D0=BA=D0=BE=D0=BC=D0=B5=D0=BD=D0=B4=
+=D0=B0=D1=86=D0=B8=D1=8F=D0=BC=D0=B8 =D0=BF=D0=BE =D1=83=D0=BB=D1=83=D1=87=
+=D1=88=D0=B5=D0=BD=D0=B8=D1=8E =D0=BF=D1=80=D0=BE=D0=B4=D1=83=D0=BA=D1=82=
+=D0=B0 =D1=81 =D1=82=D0=BE=D1=87=D0=BA=D0=B8 =D0=B7=D1=80=D0=B5=D0=BD=D0=B8=
+=D1=8F =D0=BA=D0=BE=D0=BD=D0=B5=D1=87=D0=BD=D0=BE=D0=B3=D0=BE =D0=BF=D0=BE=
+=D0=BB=D1=8C=D0=B7=D0=BE=D0=B2=D0=B0=D1=82=D0=B5=D0=BB=D1=8F =D0=B2 =D0=B4=
+=D0=BE=D0=BA=D1=83=D0=BC=D0=B5=D0=BD=D1=82=D0=B5 =E2=80=9CImprovements=E2=
+=80=9D.</p>
+<p></p>
+    </div>
+</body>
+</html>
+------=_Part_68_1946415769.1709030265836--
